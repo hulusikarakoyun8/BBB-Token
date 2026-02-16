@@ -22,18 +22,3 @@ BBB Token, BNB Smart Chain (BEP-20) üzerinde oluşturulmuş, oyun ekosistemleri
 - ✅ Hardhat deploy ve test altyapısı
 - ✅ BNB Smart Chain desteği
 
-## 🚀 Kurulum
-
-### Gereksinimler
-
-- Node.js v16+
-- npm v8+
-- MetaMask cüzdanı
-- Test BNB'si (testnet için)
-
-### Adımlar
-
-1. Projeyi klonlayın:
-```bash
-git clone https://github.com/kullaniciadiniz/BBB-Token.git
-cd BBB-Token
