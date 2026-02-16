@@ -1,0 +1,28 @@
+{
+  "name": "bbb-token",
+  "version": "1.0.0",
+  "description": "Oyun ekosistemi için BEP-20 token - Tüm oyunlarda BBB ile alışveriş",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:testnet": "npx hardhat run scripts/deploy.js --network bscTestnet",
+    "deploy:mainnet": "npx hardhat run scripts/deploy.js --network bscMainnet",
+    "verify:testnet": "npx hardhat verify --network bscTestnet",
+    "verify:mainnet": "npx hardhat verify --network bscMainnet"
+  },
+  "keywords": ["bep20", "token", "bnb", "blockchain", "games", "web3"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.0.1",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.19.1"
+  }
+}
